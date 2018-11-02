@@ -5,7 +5,7 @@ import sqlite3
 import tkMessageBox
 from Tkinter import *
 import sqlite3
-conn = sqlite3.connect('database.db')
+conn = sqlite3.connect('data.db')
 c = conn.cursor()
 conn.commit()
 def ff(a):
